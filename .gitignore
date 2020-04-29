@@ -1,0 +1,6 @@
+# data dirs
+data/
+artifacts/
+
+# IDE dirs and files
+.idea/
