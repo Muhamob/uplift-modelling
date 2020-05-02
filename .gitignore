@@ -1,6 +1,9 @@
 # data dirs
 data/
 artifacts/
+**/volume/
 
 # IDE dirs and files
 .idea/
+**/.ipynb_checkpoints/
+**/__pycache__
