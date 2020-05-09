@@ -2,6 +2,7 @@
 data/
 artifacts/
 **/volume/
+repos/
 
 # IDE dirs and files
 .idea/
