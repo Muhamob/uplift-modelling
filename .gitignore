@@ -1,6 +1,7 @@
 # data dirs
 data/**/*.csv
 data/**/*.csv.gz
+data/**/*.zip
 artifacts/
 **/volume/
 repos/
