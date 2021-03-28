@@ -6,7 +6,7 @@ import numpy as np
 from econml import dml, metalearners
 from sklift.metrics import uplift_at_k
 
-from src.datasets import split_datasets, X5Dataset
+from src.datasets_ import split_datasets, X5Dataset
 
 
 def validate_econml(df_features,
