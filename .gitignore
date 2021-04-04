@@ -2,6 +2,7 @@
 data/**/*.csv
 data/**/*.csv.gz
 data/**/*.zip
+data/preprocessed/x5-uplift*/
 artifacts/
 **/volume/
 repos/
