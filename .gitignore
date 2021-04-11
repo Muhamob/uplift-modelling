@@ -1,6 +1,7 @@
 # data dirs
 data/**/*.csv
 data/**/*.csv.gz
+data/**/*.jsonl
 data/**/*.zip
 data/preprocessed/x5-uplift*/
 artifacts/
@@ -11,3 +12,4 @@ repos/
 .idea/
 **/.ipynb_checkpoints/
 **/__pycache__
+**/*.swp
