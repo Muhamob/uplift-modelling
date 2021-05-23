@@ -53,7 +53,8 @@ def transaction_features(transaction_history: Sequence[dict]):
             f'{name}_std': np.std([i[field] for i in transaction_history]),
             f'{name}_median': np.median([i[field] for i in transaction_history]),
             f'{name}_max': np.max([i[field] for i in transaction_history]),
-            f'{name}_skew': stats.skew([i[field] for i in transaction_history])
+            f'{name}_skew': stats.skew([i[field] for i in transaction_history]),
+            f'{name}_last': transaction_history[-1][field]
         }
     
     for field in loyalty_points_names:

@@ -7,9 +7,11 @@ data/preprocessed/x5-uplift*/
 artifacts/
 **/volume/
 repos/
+**/*.pickle
 
 # IDE dirs and files
 .idea/
+.vscode/
 **/.ipynb_checkpoints/
 **/__pycache__
 **/*.swp
